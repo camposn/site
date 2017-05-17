@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="estilo.css">
+	<title>Regras de Acentuação</title>
+    <script src="code.js"></script>
+</head>
+
+<html>
+	<body onload="fase1()">
+		
+		<!--Div principal-->	
+		<div class="container">
+
+
+<!--______________________________________________________________________________________-->
+
+			<div id="telaexplicacao">
+
+				<p id="num_fase"></p>
+					
+				<p id="titulo_regra"></p>
+
+				<p id="regra"></p>
+
+				<p id="exemplo">Exemplos:</p>
+
+				<ul>
+					<li id="ex1"></li>
+					<li id="ex2"></li>
+					<li id="ex3"></li>
+					<li id="ex4"></li>
+				</ul>
+
+				<button id="butfechar" onclick="teste2()">Jogar</button>
+
+			</div>	
+
+<!--______________________________________________________________________________________-->			
+		  <div class="cab">
+		  <table id=opcoes>
+
+
+
+		  	<tr><td><a href="inicial.html"><button class="butteste">I</button></a> </td> </tr>
+
+
+			<!--<tr><td><button class="butteste" onclick="location.reload();">N</button></td> </tr>Botão que chama tela de explicação-->		  	
+	  		<tr><td><button class="butteste" onclick="teste()">?</button> </td> </tr><!--Botão que chama tela de explicação-->
+	  		</table>
+		  </div>	
+			<!--<p >A Palavra é:</p>-->
+			<div id="dapalavra">
+					<p id="palavra_sort"></p> <!--Palavra sorteada-->
+					
+			</div>	
+				<!--Div dos botões certo e errado-->	
+				<div id="botoes">
+					<button id="but_certo">Certo</button> <!--Botão certo-->
+					<button id="but_errado">Errado</button> <!--Botão errado-->
+					
+				</div>
+				
+				<!--Div da resposta-->
+				<div id="resposta">
+
+					<!--Resposta certa ou Resposta Errada-->
+					<p id="resp"></p>	
+
+				</div>
+
+				<!--Div do botão proxima palavra-->	
+				<div id="contin">
+			    	 <button id="butto">Próxima Palavra</button>
+
+			    </div>
+
+
+
+			    <!--Div da tabela de pontuação-->
+			    <div id="evolucao">
+			      <table>
+			      		<td><img class="bolafase" id="b1" src="bola.png"></td>
+						<td><img class="bolafase" id="b2" src="bola.png"></td>
+						<td><img class="bolafase" id="b3" src="bola.png"></td>
+						<td><img class="bolafase" id="b4" src="bola.png"></td>
+						<td><img class="bolafase" id="b5" src="bola.png"></td>
+
+					</tr>
+
+				  </table>	
+			    </div>
+		</div>
+		
+
+	</body>
+</html>
