@@ -98,7 +98,31 @@ button.butini{
 
 /*----------------Tela Identificação--------------------*/
 
+div#telaidentificacao{
+
+	display: none;
+	
+
+}
+
+div#divform{
+
+	margin: 0px auto;
+	width: 350px;
+}
+
+
 /*----------------Tela Fases--------------------*/
+
+div#telafases{
+
+	display: none;
+	
+
+
+}
+
+
 
 /*----------------Tela Explicação--------------------*/
 div#telaexplicacao{
@@ -158,15 +182,42 @@ p#regra, p#exemplo{
 	margin-top: 40px;
 	text-shadow: 2px 2px 1px black;
 }
+/*----------------Tela Intro--------------------*/
+
+div#telaintro{
+
+	display: none;
+	position: absolute;
+
+
+}
+
 
 /*----------------Tela Jogo--------------------*/
+
+div#telajogo{
+
+	display: none;
+	
+
+}
+
+div#frasetopo{
+
+	display: inline-block;
+	float: left;
+	margin-left: 40px;
+
+
+
+}
 
 table#opcoes{
 
 	float: right;
 }
 
-button.butteste{
+button.butopcoes{
 
 	
 	width:35px;
@@ -184,9 +235,16 @@ div#dapalavra{
 
 }
 
+p#palavra_sort{
+
+	font-size: 50px;
+	font-weight: bolder;
+
+}
+
 div#botoes{
 	margin: 0 auto;
-	width: 180px;
+	width: 210px;
 	padding:5px;
 	/*border: 3px white solid;*/
 }
@@ -194,15 +252,15 @@ div#botoes{
 
 button#but_certo{
 	
-	width:85px;
-	height:35px;
+	width:100px;
+	height:45px;
 	
 }
 
 button#but_errado{
 	
-	width:85px;
-	height:35px;
+	width:100px;
+	height:45px;
 	
 }
 

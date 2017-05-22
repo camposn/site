@@ -145,10 +145,6 @@ function fase1(){
 
  			}
 
- 		
- 	
- 	
-	
  		function fase3(){	
 		 	 
 		 	 while(terto==0){document.getElementById("telaexplicacao").style.display="block";
@@ -293,9 +289,7 @@ var tes=0;
 				 tes++;
 
 			}
-
-
-		    
+    
 			
 }
 
@@ -360,26 +354,72 @@ var tes=0;
 
 			}
 
-
-
-
  	}
  }
 
- function teste(){
-
- 	//função teste do botão explicação
-  	document.getElementById("telaexplicacao").style.display="block";
- }
-
- function teste2(){
-
- 	document.getElementById("telaexplicacao").style.display="none";
- }
-
-function teste3(){
+ function avanc(){
 
  	document.getElementById("telainicio").style.display="none";
+ 	document.getElementById("telaidentificacao").style.display="block";
+
+ }
+
+
+ function avanc2(){
+
+ 	document.getElementById("telaidentificacao").style.display="none";
+ 	document.getElementById("telafases").style.display="block";
+
+ }
+
+function volt2(){
+
+	document.getElementById("telaidentificacao").style.display="none";
+ 	document.getElementById("telainicio").style.display="block";
+
+}
+
+
+ function avanc3(){
+
+ 	document.getElementById("telafases").style.display="none";
+ 	document.getElementById("telaintro").style.display="block";
+
+ }
+
+ function volt3(){
+
+	document.getElementById("telafases").style.display="none";
+ 	document.getElementById("telaidentificacao").style.display="block";
+
+}
+
+ function avanc4(){
+
+ 	document.getElementById("telaintro").style.display="none";
+ 	document.getElementById("telajogo").style.display="block";
+
+ }
+
+ function volt4(){
+
+	document.getElementById("telaintro").style.display="none";
+ 	document.getElementById("telafases").style.display="block";
+
+}
+
+ function abrirajuda(){
+
+ 	document.getElementById("telajogo").style.display="none";
  	document.getElementById("telaexplicacao").style.display="block";
+
+ }
+
+ function fecharajuda(){
+
+ 	document.getElementById("telaexplicacao").style.display="none";
+ 	document.getElementById("telajogo").style.display="block";
+
+
  }
 
