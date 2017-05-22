@@ -14,6 +14,70 @@
 		<!--Div principal-->	
 		<div class="container">
 
+<!--__________________________________________________________________________-->
+			<div id="telainicio">
+				
+				<div class="cab">
+				<p id="titulo_jogo">Aprendendo Acentuação</p>
+
+				</div>	
+
+				<div id="botoesinicial">
+
+				<button onclick="avanc()" class="butini">Iniciar</button>
+
+				<a href="identificacao.html"><button class="butini">Ranking</button></a>
+
+				<a href="identificacao.html"><button class="butini">Ajuda</button></a>
+				</div>
+			</div>
+
+
+
+<!--______________________________________________________________________________________-->
+	
+	<div id="telaidentificacao">
+
+	<p>Tela de Identificação</p>
+		<br>
+
+	<div id="divform">
+		<form>
+			<p style="display: inline-block;">Nome: </p><input type="text" name="" style="display: inline-block;"><br>
+			<p style="display: inline-block;">Idade:</p> <input type="text" name="" style="display: inline-block;">
+
+		</form>
+
+	</div>
+
+		<p>Escolha um personagem</p>
+		<a href=""><img src="bola.png" style="width: 100px;"></a>
+		<a href=""><img src="bola.png" style="width: 100px;"></a>
+		<a href=""><img src="bola.png" style="width: 100px;"></a>
+		<a href=""><img src="bola.png" style="width: 100px;"></a>
+
+
+		<div id="botoes">
+
+		<button onclick="avanc2()" class="butini">Avançar</button>
+		<button onclick="volt2()" class="butini">Voltar</button>
+		</div>
+
+</div>
+
+<!--______________________________________________________________________________________-->
+
+	<div id="telafases">
+		
+		<p>Tela das fases</p>
+
+		<div id="botoes">
+			<button onclick="avanc3()" class="butini">Avançar</button>
+			<button onclick="volt3()" class="butini">Voltar</button>
+
+			</div>
+	</div>
+
 
 <!--______________________________________________________________________________________-->
 
@@ -34,21 +98,50 @@
 					<li id="ex4"></li>
 				</ul>
 
-				<button id="butfechar" onclick="teste2()">Jogar</button>
+				<button id="butfechar" onclick="fecharajuda()">Jogar</button>
 
 			</div>	
 
+<!--______________________________________________________________________________________-->
+
+	<div id="telaintro">
+		
+	<p>Tela de Introdução</p>
+	<p id="num_fase"></p>
+
+
+	<div id="botoes">
+			<button onclick="avanc4()" class="butini">Iniciar</button>
+			<button onclick="volt4()" class="butini">Voltar</button>
+
+			</div>
+	</div>
+
+
+
+
+
 <!--______________________________________________________________________________________-->			
+		  <div id="telajogo">
+
 		  <div class="cab">
+
+		  <div id="frasetopo">
+		  	
+		  <p>A palavra é:</p>
+
+		  </div>
+
+
 		  <table id=opcoes>
 
 
 
-		  	<tr><td><a href="inicial.html"><button class="butteste">I</button></a> </td> </tr>
+		  	<tr><td><a href="acentuacao.html"><button class="butopcoes">I</button></a> </td> </tr>
 
 
 			<!--<tr><td><button class="butteste" onclick="location.reload();">N</button></td> </tr>Botão que chama tela de explicação-->		  	
-	  		<tr><td><button class="butteste" onclick="teste()">?</button> </td> </tr><!--Botão que chama tela de explicação-->
+	  		<tr><td><button class="butopcoes" onclick="abrirajuda()">?</button> </td> </tr><!--Botão que chama tela de explicação-->
 	  		</table>
 		  </div>	
 			<!--<p >A Palavra é:</p>-->
@@ -78,7 +171,6 @@
 			    </div>
 
 
-
 			    <!--Div da tabela de pontuação-->
 			    <div id="evolucao">
 			      <table>
@@ -91,6 +183,8 @@
 					</tr>
 
 				  </table>	
+			    </div>
+
 			    </div>
 		</div>
 		
